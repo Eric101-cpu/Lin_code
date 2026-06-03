@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="UserMasterPage.master.cs" Inherits="UserMasterPage" %>
+<!DOCTYPE html>
+<html>
+
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>图书销售网站</title>
+     <link rel="stylesheet" href="App_Themes/前台样式/UserMasterStyleSheet.css" type="text/css">
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+
+<body>
+<form id="form1" runat="server">
+
+    <div class="topbar">
+        <div class="nav-wrap">
+            <a class="brand" href="<%= ResolveUrl("~/主页面.aspx") %>">
+                <span class="brand-badge">📚</span>
+                <span class="brand-name">图书销售网站</span>
+            </a>
+
+            <div class="nav-links">
+                <asp:HyperLink ID="hlHome" runat="server" CssClass="nav-chip" NavigateUrl="~/主页面.aspx">首页</asp:HyperLink>
+                <asp:HyperLink ID="hlAbout" runat="server" CssClass="nav-chip" NavigateUrl="~/网站简介.aspx">关于书社</asp:HyperLink>
+                <asp:Panel ID="plUser" runat="server">
+                    <asp:HyperLink ID="hlCart" runat="server" CssClass="nav-chip" NavigateUrl="~/购物车信息.aspx">购书车</asp:HyperLink>
+                    <asp:HyperLink ID="hlOrder" runat="server" CssClass="nav-chip" NavigateUrl="~/订单信息.aspx">我的订单</asp:HyperLink>
+                    <asp:LinkButton ID="lbtnUserName" runat="server" CssClass="nav-chip" PostBackUrl="~/用户详细信息.aspx"></asp:LinkButton>
+                    <asp:LinkButton ID="btnLogout" runat="server" CssClass="nav-chip" OnClick="LinkButton1_Click">注销</asp:LinkButton>
+                </asp:Panel>
+                <asp:Panel ID="plGuest" runat="server">
+                    <asp:HyperLink ID="hlLogin" runat="server" CssClass="nav-chip" NavigateUrl="~/用户登录.aspx">登录</asp:HyperLink>
+                    <asp:LinkButton ID="btnRegister" runat="server" CssClass="nav-chip" PostBackUrl="~/注册页.aspx">注册</asp:LinkButton>
+                </asp:Panel>
+                <asp:LinkButton ID="btnAdmin" runat="server" CssClass="nav-chip" PostBackUrl="~/网站后台页面/管理员登录.aspx">管理后台</asp:LinkButton>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content-card">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div class="footer">
+        Copyright © 图书销售网站 · 书香致远，墨卷至恒
+    </div>
+</form>
+</body>
+</html>

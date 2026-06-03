@@ -1,0 +1,392 @@
+﻿
+.page-container {
+    max-width: 1000px;
+    margin: 24px auto 48px;
+    padding: 0 16px;
+    min-height: 80vh;
+}
+
+.product-box {
+    background: #ffffff;
+    border-radius: 28px;
+    box-shadow: 0 18px 30px -12px rgba(0, 30, 60, 0.15);
+    padding: 28px 30px;
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    border: 1px solid rgba(0,0,0,0.02);
+    transition: box-shadow 0.2s;
+}
+
+    .product-box:hover {
+        box-shadow: 0 22px 40px -16px rgba(18, 52, 102, 0.2);
+    }
+
+.product-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 22px;
+    object-fit: cover;
+    border: 1px solid #f0f4fa;
+    box-shadow: 0 12px 20px -10px rgba(30, 60, 90, 0.2);
+    transition: transform 0.2s;
+    background: #f5f9ff;
+}
+
+    .product-image:hover {
+        transform: scale(1.02);
+    }
+
+.product-info {
+    flex: 1;
+}
+
+.product-name {
+    font-size: 2rem;
+    font-weight: 650;
+    color: #1e3a5f;
+    margin-bottom: 8px;
+    font-family: inherit;
+}
+
+.product-price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #164863;
+    margin-bottom: 8px;
+}
+
+    .product-price::before {
+        content: '¥';
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-right: 4px;
+        color: #5f6c80;
+    }
+
+.product-desc {
+    color: #3e5570;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.comment-form {
+    background: #ffffff;
+    border-radius: 28px;
+    box-shadow: 0 18px 30px -12px rgba(0, 30, 60, 0.15);
+    padding: 32px 36px;
+    margin-bottom: 28px;
+    border: 1px solid rgba(0,0,0,0.02);
+}
+
+.form-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #164863;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #dae4f0;
+}
+
+.comment-textarea {
+    width: 100%;
+    min-height: 140px;
+    padding: 20px 24px;
+    border: 1px solid #d0ddee;
+    border-radius: 28px;
+    font-size: 1rem;
+    font-family: inherit;
+    resize: vertical;
+    transition: all 0.2s;
+    background: #ffffff;
+    box-shadow: inset 0 2px 5px #f0f4fa;
+    color: #1e2f44;
+}
+
+    .comment-textarea:focus {
+        outline: none;
+        border-color: #7f9fc9;
+        box-shadow: 0 0 0 3px rgba(30, 60, 130, 0.1), inset 0 2px 5px #f0f4fa;
+        background: #ffffff;
+    }
+
+.btn-submit {
+    background: #e5eefc;
+    color: #1e3a5f !important;
+    border: 1px solid #cbddf2;
+    padding: 14px 42px;
+    border-radius: 60px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 6px 14px -8px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    display: inline-block;
+}
+
+    .btn-submit:hover {
+        background: #d0e2f7;
+        border-color: #7f9fc9;
+        transform: translateY(-2px);
+        box-shadow: 0 16px 24px -12px rgba(30, 80, 140, 0.3);
+        color: #0b2b40 !important;
+    }
+
+.login-prompt-box {
+    background: #ffffff;
+    border-radius: 28px;
+    box-shadow: 0 18px 30px -12px rgba(0, 30, 60, 0.15);
+    padding: 48px 40px;
+    text-align: center;
+    margin-bottom: 28px;
+    border: 1px solid rgba(0,0,0,0.02);
+}
+
+.login-link {
+    background: #e5eefc;
+    color: #1e3a5f !important;
+    border: 1px solid #cbddf2;
+    padding: 14px 32px;
+    border-radius: 60px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: inline-block;
+    margin: 0 10px;
+    box-shadow: 0 6px 14px -8px rgba(0,0,0,0.1);
+}
+
+    .login-link:hover {
+        background: #d0e2f7;
+        border-color: #7f9fc9;
+        transform: translateY(-2px);
+        box-shadow: 0 16px 24px -12px rgba(30, 80, 140, 0.3);
+        color: #0b2b40 !important;
+        text-decoration: none;
+    }
+
+.comments-header {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #164863;
+    margin: 40px 0 24px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #dae4f0;
+}
+
+.comment-count {
+    color: #3e5570;
+    font-weight: 500;
+}
+
+.comment-item {
+    background: #ffffff;
+    border-radius: 28px;
+    box-shadow: 0 12px 25px -10px rgba(0, 30, 60, 0.1);
+    padding: 24px 30px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0,0,0,0.02);
+    transition: box-shadow 0.2s;
+}
+
+    .comment-item:hover {
+        box-shadow: 0 18px 32px -12px rgba(18, 52, 102, 0.15);
+    }
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #d0e2f7, #b0c8e5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1e3a5f;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.user-name {
+    font-weight: 600;
+    color: #1e2f44;
+    font-size: 1.1rem;
+}
+
+.comment-time {
+    color: #6f8a9f;
+    font-size: 0.9rem;
+    background: #f0f6fd;
+    padding: 4px 12px;
+    border-radius: 40px;
+}
+
+.comment-content {
+    color: #1e2f44;
+    line-height: 1.7;
+    font-size: 1rem;
+    padding-left: 56px;
+    margin-top: 10px;
+}
+
+.btn-delete {
+    background: #f0f4fa;
+    color: #3e5570 !important;
+    border: 1px solid #d0ddee;
+    padding: 8px 20px;
+    border-radius: 60px;
+    font-size: 0.9rem;
+    font-weight: 550;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+    display: inline-block;
+}
+
+    .btn-delete:hover {
+        background: #e1e9f2;
+        border-color: #b0c4dd;
+        transform: translateY(-1px);
+        box-shadow: 0 8px 14px -8px rgba(30, 60, 90, 0.25);
+        color: #1e3a5f !important;
+    }
+
+.comment-actions {
+    text-align: right;
+    margin-top: 16px;
+}
+
+.message {
+    border-radius: 60px;
+    padding: 14px 28px;
+    margin-bottom: 24px;
+    border: 1px solid transparent;
+    display: block;
+    font-weight: 500;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+}
+
+.error {
+    background: #ffece5;
+    border-color: #f3b8a5;
+    color: #a13e2c;
+}
+
+.success {
+    background: #e0f0e8;
+    border-color: #9ec4b2;
+    color: #1f6e4a;
+}
+
+.no-comments {
+    text-align: center;
+    padding: 70px 30px;
+    background: #ffffff;
+    border-radius: 32px;
+    box-shadow: 0 18px 30px -12px rgba(0, 30, 60, 0.1);
+    margin-bottom: 28px;
+    border: 1px solid #f0f4fa;
+}
+
+.no-comments-icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #b8cbe0;
+}
+
+.no-comments-text {
+    font-size: 1.2rem;
+    color: #3e5570;
+    font-style: italic;
+}
+
+.btn-back {
+    background: #e5eefc;
+    color: #1e3a5f !important;
+    border: 1px solid #cbddf2;
+    padding: 14px 36px;
+    border-radius: 60px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 6px 14px -8px rgba(0,0,0,0.1);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border: none;
+}
+
+    .btn-back:hover {
+        background: #d0e2f7;
+        border-color: #7f9fc9;
+        transform: translateY(-2px);
+        box-shadow: 0 16px 24px -12px rgba(30, 80, 140, 0.3);
+        color: #0b2b40 !important;
+    }
+
+/* 响应式调整 */
+@media (max-width: 700px) {
+    .product-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 24px 20px;
+    }
+
+    .product-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .comment-content {
+        padding-left: 0;
+    }
+
+    .login-link {
+        display: block;
+        margin: 10px auto;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-name {
+        font-size: 1.6rem;
+    }
+
+    .product-price {
+        font-size: 1.5rem;
+    }
+
+    .comment-form {
+        padding: 24px 20px;
+    }
+
+    .comment-header {
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+    }
+
+    .comment-time {
+        align-self: flex-start;
+    }
+}
+

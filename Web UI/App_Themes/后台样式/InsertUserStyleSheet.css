@@ -1,0 +1,141 @@
+﻿
+.form-container {
+    max-width: 550px;
+    margin: 20px auto;
+    padding: 40px 48px;
+    background: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0 25px 45px -18px rgba(0, 30, 60, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    transition: box-shadow 0.2s;
+}
+
+.form-container:hover {
+    box-shadow: 0 30px 55px -20px rgba(18, 52, 102, 0.25);
+}
+
+.form-title {
+    font-size: 2.2rem;
+    font-weight: 650;
+    color: #1e3a5f;
+    margin-bottom: 30px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #eef3f9;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+    .form-title::before {
+        content: "👤";
+        font-size: 2.2rem;
+    }
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+.form-label {
+    display: block;
+    font-weight: 600;
+    color: #164863;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 14px 20px;
+    border: 1px solid #d0ddee;
+    background: #ffffff;
+    border-radius: 60px;
+    font-size: 1rem;
+    transition: all 0.2s;
+    box-shadow: inset 0 2px 5px #f0f4fa;
+    color: #1e2f44;
+    box-sizing: border-box;
+}
+
+    .form-input:focus {
+        border-color: #7f9fc9;
+        box-shadow: 0 0 0 3px rgba(30, 60, 130, 0.1), inset 0 2px 5px #f0f4fa;
+        outline: none;
+    }
+
+.validator-error {
+    color: #d14c6e;
+    font-size: 0.9rem;
+    margin-top: 6px;
+    display: block;
+    background: #ffece5;
+    padding: 6px 18px;
+    border-radius: 40px;
+    border: 1px solid #f3b8a5;
+}
+
+.message {
+    display: block;
+    padding: 12px 24px;
+    margin: 0 0 20px 0;
+    border-radius: 60px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    text-align: center;
+}
+
+.success {
+    background: #e0f0e8;
+    border-color: #9ec4b2;
+    color: #1f6e4a;
+}
+
+.error {
+    background: #ffece5;
+    border-color: #f3b8a5;
+    color: #a13e2c;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.btn-primary {
+    background: #e5eefc;
+    color: #1e3a5f !important;
+    border: 1px solid #cbddf2;
+    padding: 14px 42px;
+    border-radius: 60px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 6px 14px -8px rgba(0,0,0,0.1);
+    transition: all 0.2s;
+    display: inline-block;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background: #d0e2f7;
+        border-color: #7f9fc9;
+        transform: translateY(-2px);
+        box-shadow: 0 16px 24px -12px rgba(30, 80, 140, 0.3);
+        color: #0b2b40 !important;
+    }
+
+/* 响应式调整 */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 30px 25px;
+        margin: 20px;
+    }
+
+    .form-title {
+        font-size: 1.8rem;
+    }
+}
+
+

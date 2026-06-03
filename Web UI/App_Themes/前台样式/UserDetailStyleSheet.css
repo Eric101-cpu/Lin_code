@@ -1,0 +1,133 @@
+﻿<style >
+.user-info-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 40px 48px;
+    background: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0 25px 45px -18px rgba(0, 30, 60, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    transition: box-shadow 0.2s;
+}
+
+.user-info-container:hover {
+    box-shadow: 0 30px 55px -20px rgba(18, 52, 102, 0.25);
+}
+
+.info-title {
+    font-size: 2.4rem;
+    font-weight: 650;
+    color: #1e3a5f;
+    text-align: center;
+    margin-bottom: 32px;
+    letter-spacing: -0.3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: 2px solid #eef3f9;
+    padding-bottom: 20px;
+}
+
+    .info-title::before {
+        content: "👤";
+        font-size: 2.4rem;
+    }
+
+.info-row {
+    margin-bottom: 20px;
+    padding: 8px 0 12px;
+    border-bottom: 1px solid #eef3f9;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.info-label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #164863;
+    min-width: 120px;
+}
+
+.info-value {
+    font-size: 1.1rem;
+    color: #1e2f44;
+    background: #f9fcff;
+    padding: 6px 18px;
+    border-radius: 40px;
+    border: 1px solid #e0eaf5;
+    margin-left: 10px;
+    flex: 1;
+}
+
+.btn-area {
+    text-align: center;
+    margin-top: 35px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.u-btn {
+    padding: 14px 36px;
+    border: none;
+    border-radius: 60px;
+    background: #e5eefc;
+    color: #1e3a5f !important;
+    border: 1px solid #cbddf2;
+    box-shadow: 0 6px 14px -8px rgba(0,0,0,0.1);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    min-width: 150px;
+}
+
+    .u-btn:hover {
+        background: #d0e2f7;
+        border-color: #7f9fc9;
+        transform: translateY(-2px);
+        box-shadow: 0 16px 24px -12px rgba(30, 80, 140, 0.3);
+        color: #0b2b40 !important;
+    }
+
+@media (max-width: 600px) {
+    .user-info-container {
+        padding: 30px 25px;
+        margin: 20px;
+    }
+
+    .info-title {
+        font-size: 2rem;
+    }
+
+    .info-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .info-label {
+        min-width: auto;
+    }
+
+    .info-value {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .u-btn {
+        width: 100%;
+        min-width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .info-title {
+        font-size: 1.8rem;
+    }
+}
+
+</style >

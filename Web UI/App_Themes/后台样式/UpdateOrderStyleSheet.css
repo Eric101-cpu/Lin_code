@@ -1,0 +1,202 @@
+﻿
+.form-container {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 40px 48px;
+    background: #ffffff;
+    border-radius: 40px;
+    box-shadow: 0 25px 45px -18px rgba(0, 30, 60, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    transition: box-shadow 0.2s;
+}
+
+.form-container:hover {
+    box-shadow: 0 30px 55px -20px rgba(18, 52, 102, 0.25);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 650;
+    color: #1e3a5f;
+    margin-bottom: 30px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #eef3f9;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+    h2::before {
+        content: "✏️";
+        font-size: 2rem;
+    }
+
+.form-row {
+    margin-bottom: 22px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+    .form-row label {
+        width: 120px;
+        font-weight: 600;
+        color: #164863;
+        font-size: 1rem;
+    }
+
+    .form-row input[type="text"],
+    .form-row select {
+        flex: 1;
+        min-width: 250px;
+        padding: 12px 20px;
+        border: 1px solid #d0ddee;
+        background: #ffffff;
+        border-radius: 60px;
+        font-size: 1rem;
+        transition: all 0.2s;
+        box-shadow: inset 0 2px 5px #f0f4fa;
+        color: #1e2f44;
+    }
+
+        .form-row input[type="text"]:focus,
+        .form-row select:focus {
+            border-color: #7f9fc9;
+            box-shadow: 0 0 0 3px rgba(30, 60, 130, 0.1), inset 0 2px 5px #f0f4fa;
+            outline: none;
+        }
+
+/* 下拉框自定义箭头 */
+select {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%231e3a5f" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 16px;
+    padding-right: 48px;
+}
+
+/* 只读输入框样式 */
+.form-row input[readonly] {
+    background: #f9fcff;
+    color: #3e5570;
+    border-color: #d0ddee;
+    cursor: default;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 35px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btn-primary {
+    background: #e5eefc;
+    color: #1e3a5f !important;
+    border: 1px solid #cbddf2;
+    padding: 14px 36px;
+    border-radius: 60px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 6px 14px -8px rgba(0,0,0,0.1);
+    transition: all 0.2s;
+    border: none;
+}
+
+.btn-secondary {
+    background: #f0f4fa;
+    color: #1e3a5f !important;
+    border: 1px solid #d0ddee;
+    padding: 14px 36px;
+    border-radius: 60px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 6px 14px -8px rgba(0,0,0,0.1);
+    transition: all 0.2s;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #d0e2f7;
+    border-color: #7f9fc9;
+    transform: translateY(-2px);
+    box-shadow: 0 16px 24px -12px rgba(30, 80, 140, 0.3);
+    color: #0b2b40 !important;
+}
+
+.btn-secondary:hover {
+    background: #e1e9f2;
+    border-color: #b0c4dd;
+    transform: translateY(-2px);
+    box-shadow: 0 16px 24px -12px rgba(30, 80, 140, 0.3);
+    color: #0b2b40 !important;
+}
+
+.message {
+    display: block;
+    padding: 12px 24px;
+    margin: 0 0 20px 0;
+    border-radius: 60px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    text-align: center;
+}
+
+.success {
+    background: #e0f0e8;
+    border-color: #9ec4b2;
+    color: #1f6e4a;
+}
+
+.error {
+    background: #ffece5;
+    border-color: #f3b8a5;
+    color: #a13e2c;
+}
+
+/* 响应式调整 */
+@media (max-width: 700px) {
+    .form-container {
+        padding: 30px 25px;
+        margin: 20px;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .form-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+        .form-row label {
+            width: auto;
+            margin-bottom: 5px;
+        }
+
+        .form-row input[type="text"],
+        .form-row select {
+            width: 100%;
+        }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+

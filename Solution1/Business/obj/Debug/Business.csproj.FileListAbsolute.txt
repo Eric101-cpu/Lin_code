@@ -1,0 +1,40 @@
+C:\Users\admin\Desktop\图书销售网站\Solution1\Business\bin\Debug\Business.dll
+C:\Users\admin\Desktop\图书销售网站\Solution1\Business\bin\Debug\Business.pdb
+C:\Users\admin\Desktop\图书销售网站\Solution1\Business\bin\Debug\DataAccess.dll
+C:\Users\admin\Desktop\图书销售网站\Solution1\Business\bin\Debug\Entity.dll
+C:\Users\admin\Desktop\图书销售网站\Solution1\Business\bin\Debug\DataAccess.pdb
+C:\Users\admin\Desktop\图书销售网站\Solution1\Business\bin\Debug\Entity.pdb
+C:\Users\admin\Desktop\图书销售网站\Solution1\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\图书销售网站\Solution1\Business\obj\Debug\Business.dll
+C:\Users\admin\Desktop\图书销售网站\Solution1\Business\obj\Debug\Business.pdb
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\Business\bin\Debug\Business.dll
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\Business\bin\Debug\Business.pdb
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\Business\bin\Debug\DataAccess.dll
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\Business\bin\Debug\Entity.dll
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\Business\bin\Debug\DataAccess.pdb
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\Business\bin\Debug\Entity.pdb
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\Business\obj\Debug\Business.dll
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\Business\obj\Debug\Business.pdb
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\Business\bin\Debug\Business.dll
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\Business\bin\Debug\Business.pdb
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\Business\bin\Debug\DataAccess.dll
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\Business\bin\Debug\Entity.dll
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\Business\bin\Debug\DataAccess.pdb
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\Business\bin\Debug\Entity.pdb
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\Business\obj\Debug\Business.csproj.Up2Date
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\Business\obj\Debug\Business.dll
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\Business\obj\Debug\Business.pdb
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\Business\bin\Debug\Business.dll
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\Business\bin\Debug\Business.pdb
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\Business\bin\Debug\DataAccess.dll
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\Business\bin\Debug\Entity.dll
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\Business\bin\Debug\DataAccess.pdb
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\Business\bin\Debug\Entity.pdb
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\Business\obj\Debug\Business.csproj.Up2Date
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\Business\obj\Debug\Business.dll
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\Business\obj\Debug\Business.pdb

@@ -1,0 +1,21 @@
+C:\Users\admin\Desktop\图书销售网站\Solution1\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\admin\Desktop\图书销售网站\Solution1\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\admin\Desktop\图书销售网站\Solution1\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\admin\Desktop\图书销售网站\Solution1\DataAccess\obj\Debug\DataAccess.pdb
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\DataAccess\bin\Debug\DataAccess.dll
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\DataAccess\bin\Debug\DataAccess.pdb
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\DataAccess\obj\Debug\DataAccess.dll
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511\Solution1\DataAccess\obj\Debug\DataAccess.pdb
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\DataAccess\bin\Debug\DataAccess.dll
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\DataAccess\bin\Debug\DataAccess.pdb
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\DataAccess\obj\Debug\DataAccess.dll
+F:\2025春季-信息系统分析与设计\课堂授课内容（按日期汇总）\图书销售网站-20260511 - VS2026\Solution1\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Administrator\Desktop\图书销售网站-20260511 - VS2026\Solution1\DataAccess\obj\Debug\DataAccess.pdb
